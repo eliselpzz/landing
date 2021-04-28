@@ -1,0 +1,169 @@
+@import url("components/banner.css");
+
+body{
+  font-size: 17px
+  font-weight: lighter;
+  margin : 100px auto;
+  margin-top: 0px;
+}
+
+h1, h2{
+  color: #3c4135;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 550;
+  font-size:22px;
+  margin-top: 10px;
+}
+
+h3, p, ul, ol{
+  color: #666F5A;
+  font-family: Helvetica;
+}
+
+h3 {
+  font-size: 17px;
+
+}
+
+a {
+  text-decoration: none;
+  color: #FED049;
+}
+
+a:hover {
+  text-decoration-line: underline;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#background-yellow {
+  background-color: #FFF36E;
+  margin : 0px;
+  padding : 70px;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 50%), url(images/background.jpg);
+  padding: 150px 0px;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner h1 {
+  font-size: 40px;
+  color:  white;
+}
+
+.banner h2 {
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: 40px;
+  color:  white;
+}
+
+.banner a {
+  color: white;
+  border-color: white;
+}
+
+.btn-white {
+  padding: 5px 20px;
+  border-radius: 4px;
+  border: solid;
+  border-color: #3c4135;
+  color : #3c4135;
+  font-weight: bold;
+}
+
+.width-moyen {
+  width: 550px;
+  margin-top: 50px;
+  padding: 0px 80px;
+  margin-bottom: 80px;
+}
+
+.picture-left {
+  float: left;
+  margin : 0px 120px;
+}
+
+#online {
+  padding: 0px 120px;
+  margin-bottom: 80px;
+}
+
+#margin {
+  padding: 0px 120px;
+}
+
+.center {
+  text-align :center;
+  margin: 60px 200px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.card {
+  padding: 20px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  margin: 40px 20px;
+}
+
+.background-yellow {
+  background-color: #FFF36E;
+  padding : 30px;
+  margin: 0px auto;
+}
+
+.background-yellow h3 {
+   margin-bottom: 30px;
+}
+
+.list-inline  {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 30px;
+}
+
+.list-inline i:hover {
+  color : #A87F15;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
